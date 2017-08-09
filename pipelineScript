@@ -1,0 +1,6 @@
+node
+{
+  C:\Users\dchampigny\apache-jmeter-3.2\bin\jmeter.bat -Jjmeter.save.saveservice.output_format=xml -n -t 
+  C:\Users\dchampigny\JmeterJenkinsIntegration.jmx -l C:\Users\dchampigny\test.jtl
+
+}
