@@ -1,8 +1,8 @@
 node
 {
   stage 'Run JMeter Test'
-  'C:/Users/dchampigny/apache-jmeter-3.2/bin/jmeter.bat -Jjmeter.save.saveservice.output_format=xml -n -t'
-  'C:/Users/dchampigny/JmeterJenkinsIntegation.jmx -l C:/Users/dchampigny/test.jtl'
+  'C:/Users/dchampigny/apache-jmeter-3.2/bin/jmter.bat -Jjmeter.save.saveservice.output_format=xml -n -t'
+  'C:/Users/dchampigny/JmeterJenkinsIntegration.jmx -l C:/Users/dchampigny/test.jtl'
   
   stage 'Run JMeter Test'
   'C:/Users/dchampigny/apache-jmeter-3.2/bin/jmeter.bat -Jjmeter.save.saveservice.output_format=xml -n -t'
