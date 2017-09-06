@@ -3,8 +3,7 @@ node
   stage 'Run JMeter Test'
   bat 'C:/Users/dchampigny/apache-jmeter-3.2/bin/jmeter.bat -n -t "C:/Users/dchampigny/HTTP(S) Test Script RecorderV2.jmx -l C:/Users/dchampigny/test.jtl'
   
-  //stage 'Run JMeter Test'
-  //bat 'C:/Users/dchampigny/apache-jmeter-3.2/bin/jmeter.bat -n -t "C:/Users/dchampigny/View Results Tree_2.jmx" -l C:/Users/dchampigny/test1.jtl'
+  
   
   stage 'Run JMeter Test'
   bat 'C:/Users/dchampigny/apache-jmeter-3.2/bin/jmeter.bat -n -t "C:/Users/dchampigny/ActiveMQ_V3.jmx" -l C:/Users/dchampigny/test12.jtl'
